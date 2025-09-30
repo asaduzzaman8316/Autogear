@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="border-t-4 border-t-[#FF014F] relative">
+        <section class=" container mx-auto px-4">
+            <!-- this is first header  -->
+            <div class="flex justify-between py-2 border-b border-b-gray-300">
+                <div class="flex gap-2 items-center">
+                    <p class="text-sm text-gray-600">Limited-Time Offers : Mid-Summer Season Sale On Selected Items -
+                    </p>
+                    <a class="uppercase font-medium underline hover:no-underline text-gray-600 text-sm" href="">shop
+                        now</a>
+                </div>
+                <div class="flex gap-5 divide-x divide-gray-300 text-sm text-gray-600">
+                    <a class="pr-4 hover:text-[#FF014F]" href="">Help Center</a>
+                    <a class="pr-4 hover:text-[#FF014F]" href="">Order Tracking</a>
+                    <a class="flex items-center gap-2 pr-4" href=""><img src="./Image/1 (2).jpg" alt=""> English <i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <a href="">$ USD <i class="fa-solid fa-angle-down"></i></a>
+                </div>
+            </div>
+
+            <!-- this i second header  -->
+            <div class=" flex justify-between items-center py-5">
+                <div class="img w-[16%]">
+                    <img src="./Image/logo-1753509866.svg" alt="">
+                </div>
+                <div class="mid flex relative items-center border-2 border-gray-300 gap-5 px-5 py-2 rounded-md w-[50%]">
+                    <div class="">
+                        <select name="" id="" class="appearance-auto focus:outline-none text-sm text-gray-800 pr-10">
+                            <option class="" value="">All Categories</option>
+                            <option value="">Shop </option>
+                            <option value="">Accessories </option>
+                            <option value="">Sensors </option>
+                            <option value="">Auto Parts </option>
+                            <option value="">Wheels </option>
+                            <option value="">Body Parts </option>
+                            <option value="">Gauges </option>
+                        </select>
+                    </div>
+                    <input type="search" name="" id="" placeholder="Search product here...."
+                        class="border-l pl-10 focus:outline-none">
+                    <div
+                        class="border absolute top-0 right-0 size-11 rounded-r-md translate-x-2 -translate-y-0.5 flex justify-center items-center bg-[#ff014f] text-white overflow-hidden">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="icon flex justify-between text-2xl gap-5">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            <!-- nav bar  -->
+            <nav class="flex justify-between shadow-md  items-center">
+                <div
+                    class="left flex items-center gap-3 border py-3 px-4  font-medium bg-[#EF233C] text-white rounded-t-md">
+                    <p><i class="fa-solid fa-bars"></i></p>
+                    <p>Shop By Categories</p>
+                </div>
+
+                <div class="menu space-x-4 pr-40 font-medium leading-[22px]">
+                    <a class="text-[#ff104f] " href="">Home <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="">Shop<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="">Categories <span
+                            class="bg-[#199588] text-white px-1 py-0.5 rounded-sm text-xs">SALE</span><i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="">product <span
+                            class="bg-[#E62A65] text-white px-1 py-0.5 rounded-sm text-xs">HOT</span><i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="">Top Deals<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="">Elements<i class="fa-solid fa-angle-down"></i></a>
+                </div>
+                <div class="right">
+                    <p><i class="fa-solid fa-fire text-red-600"></i> Hot Deals</p>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <!-- hero section  -->
+        <section class="container mx-auto px-4 py-10">
+            <div class="flex justify-between items-center ">
+                <div
+                    class="left w-[70%] rounded-lg h-120 bg-[url(./Image/main-banner-2.jpg)] bg-cover flex flex-col justify-center items-end bg-no-repeat text-white">
+                    <div class="w-[55%] space-y-10 pl-10">
+                        <h1 class="bg-[#EF233C] w-[54%] text-lg px-4  rounded-full">Welcome to Autogear</h1>
+                        <h1 class=" text-6xl font-medium">Track Your Car Service Real-Time</h1>
+                        <p class="tracking-tight font-medium">This Weak Only For World Premier</p>
+                        <div>
+                            <button class="bg-[#ff104f] hover:bg-black duration-500 transition-all  text-lg px-4 py-2 rounded-lg">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right w-[28%] space-y-4">
+                    <div class="card1 bg-[url(./Image/sub-banner-1.jpg)] bg-cover bg-no-repeat h-38 rounded-lg p-1 flex items-center justify-end">
+                        <div class="space-y-3 w-[40%] mr-8">
+                            <h1 class="bg-[#ff104f] text-sm text-center px-3 py-0.5 text-white rounded-full" >SAVE 10% OFF</h1>
+                            <h1 class="text-xl font-semibold w-">Mack Vision Headlight</h1>
+                            <a class="text-sm underline hover:no-underline" href="">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="card2 bg-[url(./Image/sub-banner-2.jpg)] bg-cover bg-no-repeat h-38 rounded-lg p-1 flex  items-center justify-start">
+                        <div class="space-y-3 w-[40%] ml-10">
+                            <h1 class="bg-[#ff104f] text-sm text-center px-3 py-0.5 text-white rounded-full">SAVE 15% OFF</h1>
+                            <h1 class="text-xl font-semibold w-">Best Classic Sports Car</h1>
+                            <a class="text-sm underline hover:no-underline" href="">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="card3 bg-[url(./Image/sub-banner-3.jpg)] bg-cover bg-no-repeat h-38 rounded-lg p-1 flex items-center justify-end">
+                        <div class="space-y-3 w-[40%] mr-8">
+                            <h1 class="bg-[#ff104f] text-sm text-center px-3 py-0.5 text-white rounded-full">SAVE 20% OFF</h1>
+                            <h1 class="text-xl font-semibold w-">Wheel Cover For Maruti</h1>
+                            <a class="text-sm underline hover:no-underline" href="">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- brand logo  -->
+             <div class="flex justify-between items-center pt-5">
+                <div class="border p-3 border-gray-300 rounded-lg"><img src="./Image/1 (1).jpg" alt=""></div>
+                <div class="border p-3 rounded-lg border-gray-300"><img src="./Image/2 (1).jpg" alt=""></div>
+                <div class="border p-3 rounded-lg border-gray-300"><img src="./Image/3 (1).jpg" alt=""></div>
+                <div class="border p-3 rounded-lg border-gray-300"><img src="./Image/4 (1).jpg" alt=""></div>
+                <div class="border p-3 rounded-lg border-gray-300"><img src="./Image/5 (1).jpg" alt=""></div>
+                <div class="border p-3 rounded-lg border-gray-300"><img src="./Image/6 (1).jpg" alt=""></div>
+                <div class="border p-3 rounded-lg border-gray-300"><img src="./Image/7 (1).jpg" alt=""></div>
+             </div>
+        </section>
+    </main>
+</body>
+
+</html>
