@@ -20,40 +20,37 @@
 
 <body>
     <header class="border-t-4 border-t-[#FF014F] relative">
-        <section class=" container mx-auto px-4">
-            <!-- this is first header  -->
-            <div class="flex justify-between py-2 border-b border-b-gray-300">
+        <section class="container mx-auto px-4">
+            <div class="hidden md:flex justify-between py-2 border-b border-b-gray-300">
                 <div class="flex gap-2 items-center">
                     <p class="text-sm text-gray-600">Limited-Time Offers : Mid-Summer Season Sale On Selected Items -
                     </p>
-                    <a class="uppercase font-medium underline hover:no-underline text-gray-600 text-sm" href="">shop
+                    <a class="uppercase font-medium underline hover:no-underline text-gray-600 text-sm" href="#">shop
                         now</a>
                 </div>
                 <div class="flex gap-5 divide-x divide-gray-300 text-sm text-gray-600">
-                    <a class="pr-4 hover:text-[#FF014F]" href="">Help Center</a>
-                    <a class="pr-4 hover:text-[#FF014F]" href="">Order Tracking</a>
-                    <a class="flex items-center gap-2 pr-4" href=""><img src="./Image/1 (2).jpg" alt=""> English <i
-                            class="fa-solid fa-angle-down"></i></a>
-                    <a href="">$ USD <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="pr-4 hover:text-[#FF014F]" href="#">Help Center</a>
+                    <a class="pr-4 hover:text-[#FF014F]" href="#">Order Tracking</a>
+                    <a class="flex items-center gap-2 pr-4" href="#">English <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="#">$ USD <i class="fa-solid fa-angle-down"></i></a>
                 </div>
             </div>
 
-            <!-- this i second header  -->
-            <div class=" flex justify-between items-center py-5">
-                <div class="img w-[16%]">
-                    <img src="./Image/logo-1753509866.svg" alt="">
+            <div class="flex justify-between items-center py-3 md:py-5">
+                <div class="lg:hidden text-2xl">
+                    <i class="fa-solid fa-bars text-[#FF014F]"></i>
                 </div>
-                <div class="mid flex relative items-center border-2 border-gray-300 gap-5 px-5 py-2 rounded-md w-[50%]">
-                    <div class="">
+
+                <div class="img flex items-center">
+                    <img src="./Image/logo-1753509866.svg" alt="Autogear Logo" class="hidden lg:block w-[56%]">
+                </div>
+
+                <div
+                    class="mid hidden lg:flex relative items-center border-2 border-gray-300 gap-5 px-5 py-2 rounded-md w-[50%]">
+                    <div>
                         <select name="" id="" class="appearance-auto focus:outline-none text-sm text-gray-800 pr-10">
-                            <option class="" value="">All Categories</option>
-                            <option value="">Shop </option>
-                            <option value="">Accessories </option>
-                            <option value="">Sensors </option>
-                            <option value="">Auto Parts </option>
-                            <option value="">Wheels </option>
-                            <option value="">Body Parts </option>
-                            <option value="">Gauges </option>
+                            <option value="">All Categories</option>
+                            <option value="">Shop</option>
                         </select>
                     </div>
                     <input type="search" name="" id="" placeholder="Search product here...."
@@ -63,34 +60,46 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
-                <div class="icon flex justify-between text-2xl gap-5">
-                    <i class="fa-regular fa-user"></i>
-                    <i class="fa-solid fa-repeat"></i>
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
+
+                <div class="icon flex items-center text-2xl gap-5">
+                    <i class="fa-solid fa-magnifying-glass text-xl lg:hidden"></i>
+
+                    <i class="fa-regular fa-user hidden sm:block"></i>
+
+                    <div class="relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span
+                            class="absolute -top-2 -right-2 text-xs bg-[#FF014F] text-white rounded-full size-4 flex items-center justify-center font-bold">0</span>
+                    </div>
+
+                    <div class="relative">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span
+                            class="absolute -top-2 -right-2 text-xs bg-[#FF014F] text-white rounded-full size-4 flex items-center justify-center font-bold">1</span>
+                    </div>
                 </div>
             </div>
 
-            <!-- nav bar  -->
-            <nav class="flex justify-between shadow-md  items-center">
+            <nav class="hidden lg:flex justify-between shadow-md items-center">
                 <div
-                    class="left flex items-center gap-3 border py-3 px-4  font-medium bg-[#EF233C] text-white rounded-t-md">
+                    class="left flex items-center gap-3 border py-3 px-4 font-medium bg-[#EF233C] text-white rounded-t-md">
                     <p><i class="fa-solid fa-bars"></i></p>
                     <p>Shop By Categories</p>
                 </div>
 
                 <div class="menu space-x-4 pr-40 font-medium leading-[22px]">
-                    <a class="text-[#ff104f] " href="">Home <i class="fa-solid fa-angle-down"></i></a>
-                    <a class="hover:text-[#ff104f]" href="">Shop<i class="fa-solid fa-angle-down"></i></a>
-                    <a class="hover:text-[#ff104f]" href="">Categories <span
+                    <a class="text-[#ff104f] " href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Shop<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Categories <span
                             class="bg-[#199588] text-white px-1 py-0.5 rounded-sm text-xs">SALE</span><i
                             class="fa-solid fa-angle-down"></i></a>
-                    <a class="hover:text-[#ff104f]" href="">product <span
+                    <a class="hover:text-[#ff104f]" href="#">product <span
                             class="bg-[#E62A65] text-white px-1 py-0.5 rounded-sm text-xs">HOT</span><i
                             class="fa-solid fa-angle-down"></i></a>
-                    <a class="hover:text-[#ff104f]" href="">Top Deals<i class="fa-solid fa-angle-down"></i></a>
-                    <a class="hover:text-[#ff104f]" href="">Elements<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Top Deals<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Elements<i class="fa-solid fa-angle-down"></i></a>
                 </div>
+
                 <div class="right">
                     <p><i class="fa-solid fa-fire text-red-600"></i> Hot Deals</p>
                 </div>
@@ -1364,7 +1373,267 @@
                 </div>
             </div>
         </section>
+
+        <!-- clients feedback  -->
+        <section class="container mx-auto px-4 pb-16">
+            <div>
+                <div class="tp flex justify-between items-center">
+                    <div>
+                        <p class="text-2xl font-semibold border-b-3 pb-4 border-b-[#ff104f]">Client's Feedback</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <div
+                            class=" rounded-md px-1 py-0.5 bg-[#F6F6F6]  text-gray-500 hover:bg-[#be5772] hover:text-white duration-500 transition-all">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                        <div
+                            class=" rounded-md px-1 py-0.5 bg-[#eeeeee] text-gray-900 hover:bg-[#ee3465] hover:text-white duration-500 transition-all">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn flex justify-between items-center pt-8 border-t border-t-gray-200 gap-6">
+                    <div class="card1 space-y-6 border border-gray-200 p-7 rounded-md">
+                        <div class="flex items-center gap-5">
+                            <img class="rounded-full"
+                                src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/testimonial-1.jpg"
+                                alt="">
+                            <div>
+                                <h1 class="font-medium ">Stefanie Rashfod</h1>
+                                <p class="text-gray-600 text-sm">Web Designer</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600 leading-6 tracking-wide">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Quas illo tempora non accusamus? Aut
+                            saepe enim, minus fuga fugiat animi nostrum consectetur iste magni sapiente veritatis, non
+                            architecto ipsam cupiditate.</p>
+                    </div>
+
+                    <div class="card2 space-y-6 border border-gray-200 p-7 rounded-md">
+                        <div class="flex items-center gap-5">
+                            <img class="rounded-full"
+                                src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/testimonial-2.jpg"
+                                alt="">
+                            <div>
+                                <h1 class="font-medium ">Luies Charls</h1>
+                                <p class="text-gray-600 text-sm">Web Designer</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600 leading-6 tracking-wide">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Quas illo tempora non accusamus? Aut
+                            saepe enim, minus fuga fugiat animi nostrum consectetur iste magni sapiente veritatis, non
+                            architecto ipsam cupiditate.</p>
+                    </div>
+
+                    <div class="card3 space-y-6 border border-gray-200 p-7 rounded-md">
+                        <div class="flex items-center gap-5">
+                            <img class="rounded-full"
+                                src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/testimonial-3.jpg"
+                                alt="">
+                            <div>
+                                <h1 class="font-medium ">Jecob Goeckno</h1>
+                                <p class="text-gray-600 text-sm">Web Designer</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600 leading-6 tracking-wide">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Quas illo tempora non accusamus? Aut
+                            saepe enim, minus fuga fugiat animi nostrum consectetur iste magni sapiente veritatis, non
+                            architecto ipsam cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- from the gallery  -->
+        <section class="container mx-auto px-4 pb-16">
+            <div class="tp flex justify-between items-center">
+                <div>
+                    <p class="text-2xl font-semibold border-b-3 pb-4 border-b-[#ff104f]">From THe Gallery</p>
+                </div>
+                <div class="flex gap-2">
+                    <div
+                        class=" rounded-md px-1 py-0.5 bg-[#F6F6F6]  text-gray-500 hover:bg-[#be5772] hover:text-white duration-500 transition-all">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div
+                        class=" rounded-md px-1 py-0.5 bg-[#eeeeee] text-gray-900 hover:bg-[#ee3465] hover:text-white duration-500 transition-all">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bttom pt-5 border-t border-t-gray-200 flex justify-between items-center gap-5">
+                <div class="hover:cursor-pointer">
+                    <img class="rounded-md"
+                        src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/blog-01.jpg" alt="">
+                    <p class="text-lg leading-5 pt-5 font-medium">How to Write a blog post your readers will love in 5
+                        steps</p>
+                </div>
+                <div class="hover:cursor-pointer">
+                    <img class="rounded-md"
+                        src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/blog-02.jpg" alt="">
+                    <p class="text-lg leading-5 pt-5 font-medium">9 Content Marketing Trends and ideas to Increase
+                        Traffic</p>
+                </div>
+                <div class="hover:cursor-pointer">
+                    <img class="rounded-md"
+                        src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/blog-03.jpg" alt="">
+                    <p class="text-lg leading-5 pt-5 font-medium">The Ultimate Gride to Marketing Strategies to Improve
+                        Sales</p>
+                </div>
+                <div class="hover:cursor-pointer">
+                    <img class="rounded-md"
+                        src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/blog-04.jpg" alt="">
+                    <p class="text-lg leading-5 pt-5 font-medium">50 Best Sales Questions to Determine Your Customer's
+                        Needs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- photo gallery -->
+        <section class=" w-[98%] mx-auto ">
+            <div class="flex justify-between items-center gap-2 overflow-auto ">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-01.jpg" alt="">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-02.jpg" alt="">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-03.jpg" alt="">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-04.jpg" alt="">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-05.jpg" alt="">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-07.jpg" alt="">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-06.jpg" alt="">
+                <img class="rounded-md"
+                    src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/insta-08.jpg" alt="">
+            </div>
+        </section>
+
+
+        <!-- header up section  -->
+        <section class=" bg-red-500  mt-3 py-7">
+            <div class="flex justify-between  text-white p-4 container px-4 mx-auto">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-ship text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">Worldwide Shipping</h3>
+                        <p class="text-sm">Order Above $100</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-hand-holding-dollar text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">Money Back Guarantee</h3>
+                        <p class="text-sm">Guarantee Within 30 Days</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-gift text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">Offers And Discounts</h3>
+                        <p class="text-sm">Back Returns In 7 Days</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-headset text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">24/7 Support Services</h3>
+                        <p class="text-sm">Any Time Support</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
+
+    <footer class="bg-[#212529] text-gray-300 py-10 px-6">
+        <div class="container px-4 mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+
+            <!-- Contact Us -->
+            <div class="space-y-3">
+                <h3 class="text-white font-semibold mb-4">Contact Us</h3>
+                <p class="text-sm">Autogear Demo<br>
+                    507-Union Trade Centre, USA 12345,<br>
+                    Beside the Sun point land.<br>
+                    United States
+                </p>
+                <p class="mt-3 text-sm">Call us: <span class="text-white">+00 123-456-789</span></p>
+                <p class="text-sm">Email us: <span class="text-white">admin@example.com</span></p>
+                <div class="flex gap-2 mt-4">
+                    <img src="./Image/app.png" alt="App Store">
+                    <img src="./Image/google.png" alt="Google Play">
+                </div>
+            </div>
+
+            <!-- Products -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Products</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="hover:text-white">Prices Drop</a></li>
+                    <li><a href="#" class="hover:text-white">New Products</a></li>
+                    <li><a href="#" class="hover:text-white">Best Sellers</a></li>
+                    <li><a href="#" class="hover:text-white">Sitemap</a></li>
+                    <li><a href="#" class="hover:text-white">Stores</a></li>
+                    <li><a href="#" class="hover:text-white">Gearbox</a></li>
+                </ul>
+            </div>
+
+            <!-- Our Company -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Our Company</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="hover:text-white">Delivery</a></li>
+                    <li><a href="#" class="hover:text-white">Legal Notice</a></li>
+                    <li><a href="#" class="hover:text-white">Terms And Conditions</a></li>
+                    <li><a href="#" class="hover:text-white">Secure Payment</a></li>
+                    <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-white">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Your Account -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Your Account</h3>
+                <ul class="space-y-4 text-sm">
+                    <li><a href="#" class="hover:text-white">Order Tracking</a></li>
+                    <li><a href="#" class="hover:text-white">Sign In</a></li>
+                    <li><a href="#" class="hover:text-white">Create Account</a></li>
+                    <li><a href="#" class="hover:text-white font-semibold">Vouchers</a></li>
+                    <li><a href="#" class="hover:text-white">Credit Slip</a></li>
+                    <li><a href="#" class="hover:text-white">Wishlist</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Get Our Latest Update!</h3>
+                <p class="text-sm mb-4">Subscribe to our latest newsletter to get news about special discounts.</p>
+
+                <!-- Email input -->
+                <div class="flex bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Your email address"
+                        class="flex-1 px-3 py-2 text-gray-800 outline-none">
+                    <button class="bg-pink-500 px-4 text-white text-lg">&gt;</button>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="flex items-start mt-3 text-white">
+                    <input type="checkbox" id="agree" class="mt-1 mr-2">
+                    <label for="agree" class="text-sm">
+                        I agree to the terms and conditions and the privacy policy
+                    </label>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
