@@ -16,3 +16,20 @@ modeBtn.addEventListener("click", () =>{
         mode = "light";
     }
 })
+
+const productGrid = document.querySelector("#productGrid");
+const btnForFive = document.querySelector("#btnForFive");
+const btnForthree = document.querySelector("#btnForthree");
+const btnForTwo = document.querySelector("#btnForTwo");
+
+btnForFive.addEventListener("click", () => {
+    productGrid.style.setProperty("--col", 5)
+})
+
+btnForthree.addEventListener("click", () =>{
+    productGrid.style.setProperty("--col", 3)
+})
+
+btnForTwo.addEventListener("click", () =>{
+    productGrid.style.setProperty("--col", 2)
+})

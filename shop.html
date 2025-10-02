@@ -15,6 +15,10 @@
         * {
             font-family: "Poppins", sans-serif;
         }
+
+        #productGrid {
+            --col: 4;
+        }
     </style>
 </head>
 
@@ -317,14 +321,14 @@
                     <div class="product">
                         <div class=" py-8 flex items-center justify-between">
                             <div class="left  flex items-center">
-                                <button
-                                    class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
+                                <button id="btnForFive"
+                                    class="border mr-3 px-2 active:text-white py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
                                         class="fa-solid fa-barcode"></i></button>
-                                <button
-                                    class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
+                                <button id="btnForthree"
+                                    class="border rotate-90 mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
                                         class="fa-solid fa-bars"></i></button>
-                                <button
-                                    class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
+                                <button id="btnForTwo"
+                                    class="border mr-3 px-2 rotate-90 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
                                         class="fa-solid fa-grip-lines"></i></button>
                                 <button
                                     class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
@@ -340,7 +344,8 @@
                         </div>
 
                         <div class="mainProduct">
-                            <div class="btn grid grid-cols-5 gap-6 ">
+                            <div id="productGrid"
+                                class=" grid [grid-template-columns:repeat(var(--col),minmax(0,1fr))] gap-6 ">
                                 <div class="card1 border   border-gray-300 rounded-md p-3 group relative">
                                     <div>
                                         <img class="w-250" src="./Image/menu-cat-1.jpg" alt="">
@@ -2001,21 +2006,33 @@
             </div>
         </div>
 
-        <section class="border-t border-t-gray-700"> 
+        <section class="border-t border-t-gray-700">
             <div class="bottomFooter container mx-auto px-4 py-5 flex justify-between items-center">
                 <div class="social flex items-center gap-1">
-                    <div class="border text-xl size-10 flex
-                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-facebook-f"></i></div>
-                    <div class="border text-xl size-10 flex
-                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-x-twitter"></i></div>
-                    <div class="border text-xl size-10 flex
-                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-linkedin-in"></i></div>
-                    <div class="border text-xl size-10 flex
-                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-instagram"></i></div>
-                    <div class="border text-xl size-10 flex
-                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-google"></i></div>
-                    <div class="border text-xl size-10 flex
-                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-pinterest"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-facebook-f"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-x-twitter"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-linkedin-in"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-instagram"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-google"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-pinterest"></i></div>
                 </div>
                 <div>
                     <img src="./Image/payment-all-6.png" alt="">
@@ -2023,6 +2040,8 @@
             </div>
         </section>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
