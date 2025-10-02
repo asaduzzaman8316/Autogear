@@ -1,0 +1,2028 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad Store | Shop</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="border-t-4 border-t-[#FF014F] shadow-sm relative">
+        <section class="container mx-auto px-4">
+            <div class="hidden md:flex justify-between py-2 border-b border-b-gray-300">
+                <div class="flex gap-2 items-center">
+                    <p class="text-sm text-gray-600">Limited-Time Offers : Mid-Summer Season Sale On Selected Items -
+                    </p>
+                    <a class="uppercase font-medium underline hover:no-underline text-gray-600 text-sm"
+                        href="shop.html">shop
+                        now</a>
+                </div>
+                <div class="flex gap-5 divide-x divide-gray-300 text-sm text-gray-600">
+                    <a class="pr-4 hover:text-[#FF014F]" href="#">Help Center</a>
+                    <a class="pr-4 hover:text-[#FF014F]" href="#">Order Tracking</a>
+                    <a class="flex items-center gap-2 pr-4" href="#">English <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="#">$ USD <i class="fa-solid fa-angle-down"></i></a>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center py-3 md:py-5">
+                <div class="lg:hidden text-2xl">
+                    <i class="fa-solid fa-bars text-[#FF014F]"></i>
+                </div>
+
+                <div class="img flex items-center">
+                    <img src="./Image/logo-1753509866.svg" alt="Autogear Logo" class="hidden lg:block w-[56%]">
+                </div>
+
+                <div
+                    class="mid hidden lg:flex relative items-center border-2 border-gray-300 gap-5 px-5 py-2 rounded-md w-[50%]">
+                    <div>
+                        <select name="" id="" class="appearance-auto focus:outline-none text-sm text-gray-800 pr-10">
+                            <option value="">All Categories</option>
+                            <option value="">Shop</option>
+                        </select>
+                    </div>
+                    <input type="search" name="" id="" placeholder="Search product here...."
+                        class="border-l w-full pl-5 focus:outline-none">
+                    <div
+                        class="border absolute top-0 right-0 size-11 rounded-r-md translate-x-2 -translate-y-0.5 flex justify-center items-center bg-[#ff014f] text-white overflow-hidden cursor-pointer">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="icon flex items-center text-2xl gap-5">
+                    <button id="mode-btn" class=" text-xl cursor-pointer"><i
+                            class="fa-solid fa-toggle-off"></i></button>
+
+                    <i class="fa-regular fa-user hidden sm:block"></i>
+
+                    <div class="relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span
+                            class="absolute -top-2 -right-2 text-xs bg-[#FF014F] text-white rounded-full size-4 flex items-center justify-center font-bold">0</span>
+                    </div>
+
+                    <div class="relative">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span
+                            class="absolute -top-2 -right-2 text-xs bg-[#FF014F] text-white rounded-full size-4 flex items-center justify-center font-bold">1</span>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="hidden lg:flex justify-between  items-center">
+                <div
+                    class="left flex items-center gap-3 border py-3 px-4 font-medium bg-[#EF233C] text-white rounded-t-md">
+                    <p><i class="fa-solid fa-bars"></i></p>
+                    <p>Shop By Categories</p>
+                </div>
+
+                <div class="menu space-x-4 pr-40 font-medium leading-[22px]">
+                    <a class="text-[#ff104f] " href="index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="shop.html">Shop<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Categories <span
+                            class="bg-[#199588] text-white px-1 py-0.5 rounded-sm text-xs">SALE</span><i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">product <span
+                            class="bg-[#E62A65] text-white px-1 py-0.5 rounded-sm text-xs">HOT</span><i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Top Deals<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Elements<i class="fa-solid fa-angle-down"></i></a>
+                </div>
+
+                <div class="right">
+                    <p><i class="fa-solid fa-fire text-red-600"></i> Hot Deals</p>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <!-- shop banner  -->
+        <section class="bg-[#F7F7F7] py-8">
+            <div class="container mx-auto px-4 flex justify-between items-center ">
+                <p class="text-2xl font-semibold">Shop</p>
+                <p class="text-sm">Home / Shop</p>
+            </div>
+        </section>
+
+        <!-- shop body  -->
+        <section class="container mx-auto px-4 py-5">
+            <div class="flex justify-between gap-8 w-full">
+                <div class="left w-[20%]">
+                    <!-- left home  -->
+                    <div class="home border border-gray-200 rounded-md p-4">
+                        <p class="text-lg font-medium border-b-3 pb-3 border-b-[#ff104f] w-[25%]">Home</p>
+                        <div class="border-t border-t-gray-200 pt-5 space-y-2">
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm">Shop</p>
+                                <p class="text-2xl leading-3 ">+</p>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm">Accessories</p>
+                                <p class="text-2xl leading-3 ">+</p>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm">Sensors</p>
+                                <p class="text-2xl leading-3 ">+</p>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm">Auto Parts</p>
+                                <p class="text-2xl leading-3 ">+</p>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm">Wheels</p>
+                                <p class="text-2xl leading-3 ">+</p>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm">Body Parts</p>
+                                <p class="text-2xl leading-3 ">+</p>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <p class="text-sm">Gauges</p>
+                                <p class="text-2xl leading-3 ">+</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- left  section  -->
+                    <div class="filte-by border border-gray-200 rounded-md p-4 mt-8">
+                        <p class="text-lg font-medium border-b-3 pb-3 border-b-[#ff104f] w-[50%]">Filter By</p>
+                        <div class="border-t border-t-gray-200">
+                            <p class="pt-5 pb-1">Categories</p>
+                            <div>
+                                <input type="checkbox" name="" id="">
+                                <label class="text-sm pl-2" for="">Air Filters (12)</label> <br>
+                                <input type="checkbox" name="" id="">
+                                <label class="text-sm pl-2" for="">Control Arms (8)</label> <br>
+                                <input type="checkbox" name="" id="">
+                                <label class="text-sm pl-2" for="">Engine Oil (13)</label> <br>
+                                <input type="checkbox" name="" id="">
+                                <label class="text-sm pl-2" for="">Wiring Harnesses (16)</label> <br>
+                                <p class="font-medium pt-8 pb-1">Availability</p>
+                                <input type="checkbox" name="" id="">
+                                <label class="text-sm pl-2" for="">In stock (30)</label> <br>
+                                <input type="checkbox" name="" id="">
+                                <label class="text-sm pl-2" for="">Not available (1)</label> <br>
+                            </div>
+                        </div>
+                        <!-- price  -->
+                        <div class="my-6">
+                            <h2 class="font-semibold text-gray-800 mb-2">Price</h2>
+                            <input type="range" min="13" max="181" value="100" class="w-full accent-gray-300">
+                            <p class="text-sm text-gray-500 mt-1">$13.00 - $181.00</p>
+                        </div>
+
+                        <!-- Color -->
+                        <div class="mb-6">
+                            <h2 class="font-semibold text-gray-800 mb-2">Color</h2>
+                            <div class="space-y-2 text-sm text-gray-700">
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-gray-400 inline-block"></span> Gray (3)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full border inline-block"></span> White (2)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-red-600 inline-block"></span> Red (1)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-black inline-block"></span> Black (5)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-amber-700 inline-block"></span> Camel (1)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-orange-500 inline-block"></span> Orange (1)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-blue-500 inline-block"></span> Blue (2)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-green-500 inline-block"></span> Green (2)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <span class="w-4 h-4 rounded-full bg-yellow-400 inline-block"></span> Yellow (1)
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Size -->
+                        <div class="mb-6">
+                            <h2 class="font-semibold text-gray-800 mb-2">Size</h2>
+                            <div class="space-y-2 text-sm text-gray-700">
+                                <label class="flex items-center gap-2">
+                                    <input type="checkbox" class="accent-pink-600"> Small (5)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <input type="checkbox" class="accent-pink-600"> Medium (5)
+                                </label>
+                                <label class="flex items-center gap-2">
+                                    <input type="checkbox" class="accent-pink-600"> Large (5)
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Brand -->
+                        <div class="mb-6">
+                            <h2 class="font-semibold text-gray-800 mb-2">Brand</h2>
+                            <div class="space-y-2 text-sm text-gray-700">
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    Cartify (3)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    EcomZone (4)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    EcoShop (3)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    MegaMart (4)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    QuickCart (2)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    SmartShop (5)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    StyleHub (2)</label>
+                            </div>
+                        </div>
+
+                        <!-- Selections -->
+                        <div class="mb-6">
+                            <h2 class="font-semibold text-gray-800 mb-2">Selections</h2>
+                            <div class="space-y-2 text-sm text-gray-700">
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    Discounted (8)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    New product (23)</label>
+                            </div>
+                        </div>
+
+                        <!-- Condition -->
+                        <div>
+                            <h2 class="font-semibold text-gray-800 mb-2">Condition</h2>
+                            <div class="space-y-2 text-sm text-gray-700">
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    New (13)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    Refurbished (3)</label>
+                                <label class="flex items-center gap-2"><input type="checkbox" class="accent-pink-600">
+                                    Used (7)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right w-[90%]">
+                    <p class="text-sm text-gray-600">The engine is the heart of every vehicle, and its components work
+                        together to generate power and ensure smooth operation. This subcategory includes critical parts
+                        such as pistons, camshafts, crankshafts, cylinder heads, timing belts, and engine mounts.</p>
+                    <h1 class="text-xl font-medium pt-10 pb-4">Subcategories</h1>
+                    <div class="flex justify-between w-[70%] gap-5">
+                        <div class="">
+                            <div
+                                class="border border-gray-200 px-8 py-12 rounded-md text-2xl text-gray-600 font-medium text-center">
+                                No image available</div>
+                            <p class="text-center pt-3 text-lg font-medium">Engine Oil</p>
+                        </div>
+                        <div class="">
+                            <div
+                                class="border border-gray-200 px-8 py-12 rounded-md text-2xl text-gray-600 font-medium text-center">
+                                No image available</div>
+                            <p class="text-center pt-3 text-lg font-medium">Air Filters</p>
+                        </div>
+                        <div class="">
+                            <div
+                                class="border border-gray-200 hover:border-[#ff104f] px-8 py-12 rounded-md text-2xl text-gray-600 font-medium text-center">
+                                No image available</div>
+                            <p class="text-center pt-3 text-lg font-medium">Wiring Harnesses</p>
+                        </div>
+                        <div class="">
+                            <div
+                                class="border hover:border-[#ff104f] border-gray-200 px-8 py-12 rounded-md text-2xl text-gray-600 font-medium text-center">
+                                No image available</div>
+                            <p class="text-center pt-3 text-lg font-medium">Control Arms</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class=" py-8 flex items-center justify-between">
+                            <div class="left  flex items-center">
+                                <button
+                                    class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
+                                        class="fa-solid fa-barcode"></i></button>
+                                <button
+                                    class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
+                                        class="fa-solid fa-bars"></i></button>
+                                <button
+                                    class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
+                                        class="fa-solid fa-grip-lines"></i></button>
+                                <button
+                                    class="border mr-3 px-2 py-1 hover:bg-[#ff104f] hover:text-white text-lg rounded-sm border-gray-300"><i
+                                        class="fa-solid fa-bars"></i></button>
+                                <p class="text-sm pl-8">There are 31 products</p>
+                            </div>
+                            <div class="right flex gap-3 items-center">
+                                <p class="text-sm">Sort by: </p>
+                                <select class="border p-2 border-gray-200 rounded-md pr-60" name="" id="">
+                                    <option value="">Relevance</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="mainProduct">
+                            <div class="btn grid grid-cols-5 gap-6 ">
+                                <div class="card1 border   border-gray-300 rounded-md p-3 group relative">
+                                    <div>
+                                        <img class="w-250" src="./Image/menu-cat-1.jpg" alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all ">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-3 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all  shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card2 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/6-home_default/calandis-modern-white-ceramic-flower-vase.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -10%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card3 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/10-home_default/thrustmaster-th8s-shifter-add-on-mannual-ge.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card4 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/15-home_default/black-yellow-wheel-cover-13-inch-for-four-wheel.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card5 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/20-home_default/autoparts-led-black-projector-headlights.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4  top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card6 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/26-home_default/motul-7100-20w-50-api-fully-synthetic-engine-oil.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -8%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card1 border   border-gray-300 rounded-md p-3 group relative">
+                                    <div>
+                                        <img class="w-250" src="./Image/menu-cat-1.jpg" alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all ">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-3 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all  shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card2 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/6-home_default/calandis-modern-white-ceramic-flower-vase.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -10%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card3 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/10-home_default/thrustmaster-th8s-shifter-add-on-mannual-ge.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card4 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/15-home_default/black-yellow-wheel-cover-13-inch-for-four-wheel.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card5 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/20-home_default/autoparts-led-black-projector-headlights.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4  top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card6 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/26-home_default/motul-7100-20w-50-api-fully-synthetic-engine-oil.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -8%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card1 border   border-gray-300 rounded-md p-3 group relative">
+                                    <div>
+                                        <img class="w-250" src="./Image/menu-cat-1.jpg" alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all ">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-3 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all  shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card2 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/6-home_default/calandis-modern-white-ceramic-flower-vase.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -10%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card3 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/10-home_default/thrustmaster-th8s-shifter-add-on-mannual-ge.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card4 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/15-home_default/black-yellow-wheel-cover-13-inch-for-four-wheel.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card5 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/20-home_default/autoparts-led-black-projector-headlights.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4  top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card6 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/26-home_default/motul-7100-20w-50-api-fully-synthetic-engine-oil.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -8%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card1 border   border-gray-300 rounded-md p-3 group relative">
+                                    <div>
+                                        <img class="w-250" src="./Image/menu-cat-1.jpg" alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all ">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-3 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all  shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card2 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/6-home_default/calandis-modern-white-ceramic-flower-vase.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -10%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card3 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/10-home_default/thrustmaster-th8s-shifter-add-on-mannual-ge.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card4 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/15-home_default/black-yellow-wheel-cover-13-inch-for-four-wheel.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card5 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/20-home_default/autoparts-led-black-projector-headlights.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4  top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card6 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/26-home_default/motul-7100-20w-50-api-fully-synthetic-engine-oil.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -8%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card1 border   border-gray-300 rounded-md p-3 group relative">
+                                    <div>
+                                        <img class="w-250" src="./Image/menu-cat-1.jpg" alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all ">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-3 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all  shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card2 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/6-home_default/calandis-modern-white-ceramic-flower-vase.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -10%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card3 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/10-home_default/thrustmaster-th8s-shifter-add-on-mannual-ge.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card4 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/15-home_default/black-yellow-wheel-cover-13-inch-for-four-wheel.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card5 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/20-home_default/autoparts-led-black-projector-headlights.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4  top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card6 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/26-home_default/motul-7100-20w-50-api-fully-synthetic-engine-oil.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -8%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card1 border   border-gray-300 rounded-md p-3 group relative">
+                                    <div>
+                                        <img class="w-250" src="./Image/menu-cat-1.jpg" alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all ">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-3 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all  shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card2 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/6-home_default/calandis-modern-white-ceramic-flower-vase.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -10%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card3 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/10-home_default/thrustmaster-th8s-shifter-add-on-mannual-ge.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card4 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/15-home_default/black-yellow-wheel-cover-13-inch-for-four-wheel.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card5 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/20-home_default/autoparts-led-black-projector-headlights.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-2 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4  top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card6 border border-gray-300 rounded-md p-3 group relative ">
+                                    <div>
+                                        <img class="w-250"
+                                            src="https://prestashop.codezeel.com/PRS21/PRS210514/default/26-home_default/motul-7100-20w-50-api-fully-synthetic-engine-oil.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-600">StyleHub</p>
+                                        <p
+                                            class="line-clamp-2 font-semibold text-sm group-hover:text-[#EF233C] duration-500 transition-all">
+                                            Front Brake Disk + Brake pads for Yamaha VINO</p>
+                                        <div class="flex gap-4 w-[40%] h-4">
+                                            <img src="./Image/5rating.png" alt="">
+                                            <p class="text-sm">(2)</p>
+                                        </div>
+                                        <p class="font-semibold text-[#ff104f]">$100</p>
+                                        <div
+                                            class=" py-2 text-center rounded-md group-hover:bg-[#EF233C] bg-gray-200 duration-500 transition-all text-gray-800 group-hover:text-gray-100 font-semibold mt-2">
+                                            <button>ADD TO CART</button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="bg-[#EF233C] text-white px-3 py-[2px] rounded-md text-sm absolute top-2">
+                                        -8%</div>
+                                    <div
+                                        class="bg-green-600 text-white px-3 py-[2px] rounded-md text-sm absolute top-10 opacity-0 group-hover:opacity-100 duration-500 transition-all">
+                                        NEW</div>
+                                    <div
+                                        class="space-y-2 text-lg absolute right-0 z-10 opacity-0 group-hover:opacity-100 group-hover:right-4 top-10 duration-500 transition-all">
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        </div>
+                                        <div
+                                            class="size-9 flex justify-center items-center rounded-full hover:bg-[#EF233C] bg-white hover:text-white duration-500 transition-all shadow-md">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- two card and some info section  -->
+                    <div class="border border-gray-200 rounded-md p-4 mt-20 space-y-6 mb-5">
+                        <div>
+                            <p class="text-sm text-gray-600">The transmission and drivetrain are responsible for
+                                transferring power from the engine to the wheels, enabling movement and gear control.
+                                This category includes automatic and manual transmissions, clutches, axles, driveshafts,
+                                differentials, and CV joints. These components ensure that the vehicle responds smoothly
+                                to acceleration and gear changes while maintaining fuel efficiency and torque delivery.
+                                A well-maintained drivetrain is key to seamless driving performance and handling.</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6 justify-between items-center ">
+                            <img class="rounded-md "
+                                src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/extended-01.jpg"
+                                alt="">
+                            <img class="rounded-md "
+                                src="https://prestashop.codezeel.com/PRS21/PRS210514/default/img/cms/extended-02.jpg"
+                                alt="">
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600">The braking system is essential for vehicle safety,
+                                allowing the driver to slow down, stop, or maintain control under various driving
+                                conditions. It includes brake pads, rotors, calipers, drums, master cylinders, and ABS
+                                modules. Each component plays a vital role in providing reliable stopping power and
+                                maintaining stability during braking. Regular inspection and replacement of worn brake
+                                parts are crucial for driver safety and system effectiveness.</p>
+                        </div>
+                        <div class="text-sm text-gray-600 space-y-2 px-4">
+                            <li>Cabin components that enhance comfort, safety, and driver control.</li>
+                            <li>Includes bumpers, mirrors, fenders, grilles, and door components.</li>
+                            <li>Components include mufflers, catalytic converters, and oxygen sensors.</li>
+                            <li>Helps meet environmental standards while improving engine efficiency.</li>
+                            <li>Designed for functionality, ergonomics, and passenger experience.</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- header up section  -->
+        <section class=" bg-red-500  mt-3 py-7">
+            <div class="flex justify-between  text-white p-4 container px-4 mx-auto">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-ship text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">Worldwide Shipping</h3>
+                        <p class="text-sm">Order Above $100</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-hand-holding-dollar text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">Money Back Guarantee</h3>
+                        <p class="text-sm">Guarantee Within 30 Days</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-gift text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">Offers And Discounts</h3>
+                        <p class="text-sm">Back Returns In 7 Days</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-headset text-5xl hover:animate-bounce"></i>
+                    <div>
+                        <h3 class="">24/7 Support Services</h3>
+                        <p class="text-sm">Any Time Support</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="bg-[#212529] text-gray-300 pt-10   ">
+        <div class="container px-4 mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 pb-16">
+
+            <!-- Contact Us -->
+            <div class="space-y-3">
+                <h3 class="text-white font-semibold mb-4">Contact Us</h3>
+                <p class="text-sm">Autogear Demo<br>
+                    507-Union Trade Centre, USA 12345,<br>
+                    Beside the Sun point land.<br>
+                    United States
+                </p>
+                <p class="mt-3 text-sm">Call us: <span class="text-white">+00 123-456-789</span></p>
+                <p class="text-sm">Email us: <span class="text-white">admin@example.com</span></p>
+                <div class="flex gap-2 mt-4">
+                    <img src="./Image/app.png" alt="App Store">
+                    <img src="./Image/google.png" alt="Google Play">
+                </div>
+            </div>
+
+            <!-- Products -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Products</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="hover:text-white">Prices Drop</a></li>
+                    <li><a href="#" class="hover:text-white">New Products</a></li>
+                    <li><a href="#" class="hover:text-white">Best Sellers</a></li>
+                    <li><a href="#" class="hover:text-white">Sitemap</a></li>
+                    <li><a href="#" class="hover:text-white">Stores</a></li>
+                    <li><a href="#" class="hover:text-white">Gearbox</a></li>
+                </ul>
+            </div>
+
+            <!-- Our Company -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Our Company</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="hover:text-white">Delivery</a></li>
+                    <li><a href="#" class="hover:text-white">Legal Notice</a></li>
+                    <li><a href="#" class="hover:text-white">Terms And Conditions</a></li>
+                    <li><a href="#" class="hover:text-white">Secure Payment</a></li>
+                    <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-white">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Your Account -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Your Account</h3>
+                <ul class="space-y-4 text-sm">
+                    <li><a href="#" class="hover:text-white">Order Tracking</a></li>
+                    <li><a href="#" class="hover:text-white">Sign In</a></li>
+                    <li><a href="#" class="hover:text-white">Create Account</a></li>
+                    <li><a href="#" class="hover:text-white font-semibold">Vouchers</a></li>
+                    <li><a href="#" class="hover:text-white">Credit Slip</a></li>
+                    <li><a href="#" class="hover:text-white">Wishlist</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Get Our Latest Update!</h3>
+                <p class="text-sm mb-4">Subscribe to our latest newsletter to get news about special discounts.</p>
+
+                <!-- Email input -->
+                <div class="flex bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Your email address"
+                        class="flex-1 px-3 py-2 text-gray-800 outline-none">
+                    <button class="bg-pink-500 px-4 text-white text-lg">&gt;</button>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="flex items-start mt-3 text-white">
+                    <input type="checkbox" id="agree" class="mt-1 mr-2">
+                    <label for="agree" class="text-sm">
+                        I agree to the terms and conditions and the privacy policy
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <section class="border-t border-t-gray-700"> 
+            <div class="bottomFooter container mx-auto px-4 py-5 flex justify-between items-center">
+                <div class="social flex items-center gap-1">
+                    <div class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-google"></i></div>
+                    <div class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all"><i class="fa-brands fa-pinterest"></i></div>
+                </div>
+                <div>
+                    <img src="./Image/payment-all-6.png" alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

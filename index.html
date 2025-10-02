@@ -25,7 +25,8 @@
                 <div class="flex gap-2 items-center">
                     <p class="text-sm text-gray-600">Limited-Time Offers : Mid-Summer Season Sale On Selected Items -
                     </p>
-                    <a class="uppercase font-medium underline hover:no-underline text-gray-600 text-sm" href="#">shop
+                    <a class="uppercase font-medium underline hover:no-underline text-gray-600 text-sm"
+                        href="shop.html">shop
                         now</a>
                 </div>
                 <div class="flex gap-5 divide-x divide-gray-300 text-sm text-gray-600">
@@ -62,7 +63,8 @@
                 </div>
 
                 <div class="icon flex items-center text-2xl gap-5">
-                    <i class="fa-solid fa-magnifying-glass text-xl lg:hidden"></i>
+                    <button id="mode-btn" class=" text-xl cursor-pointer"><i
+                            class="fa-solid fa-toggle-off"></i></button>
 
                     <i class="fa-regular fa-user hidden sm:block"></i>
 
@@ -88,8 +90,8 @@
                 </div>
 
                 <div class="menu space-x-4 pr-40 font-medium leading-[22px]">
-                    <a class="text-[#ff104f] " href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                    <a class="hover:text-[#ff104f]" href="#">Shop<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="text-[#ff104f] " href="index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="shop.html">Shop<i class="fa-solid fa-angle-down"></i></a>
                     <a class="hover:text-[#ff104f]" href="#">Categories <span
                             class="bg-[#199588] text-white px-1 py-0.5 rounded-sm text-xs">SALE</span><i
                             class="fa-solid fa-angle-down"></i></a>
@@ -1553,7 +1555,7 @@
         </section>
     </main>
 
-    <footer class="bg-[#212529] text-gray-300 py-10 px-6">
+    <footer class="bg-[#212529] text-gray-300 pt-10 px-6">
         <div class="container px-4 mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
 
             <!-- Contact Us -->
@@ -1632,8 +1634,43 @@
                 </div>
             </div>
         </div>
+
+        <section class="border-t border-t-gray-700">
+            <div class="bottomFooter container mx-auto px-4 py-5 flex justify-between items-center">
+                <div class="social flex items-center gap-1">
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-facebook-f"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-x-twitter"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-linkedin-in"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-instagram"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-google"></i></div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-pinterest"></i></div>
+                </div>
+                <div>
+                    <img src="./Image/payment-all-6.png" alt="">
+                </div>
+            </div>
+        </section>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
