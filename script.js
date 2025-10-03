@@ -20,7 +20,6 @@ modeBtn.addEventListener("click", () =>{
 const productGrid = document.querySelector("#productGrid");
 const btnForFive = document.querySelector("#btnForFive");
 const btnForthree = document.querySelector("#btnForthree");
-const btnForTwo = document.querySelector("#btnForTwo");
 
 btnForFive.addEventListener("click", () => {
     productGrid.style.setProperty("--col", 5)

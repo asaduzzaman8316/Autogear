@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="border-t-4 border-t-[#FF014F] relative">
+        <section class="container mx-auto px-4">
+            <div class="hidden md:flex justify-between py-2 border-b border-b-gray-300">
+                <div class="flex gap-2 items-center">
+                    <p class="text-sm text-gray-600">Limited-Time Offers : Mid-Summer Season Sale On Selected Items -
+                    </p>
+                    <a class="uppercase font-medium underline hover:no-underline text-gray-600 text-sm"
+                        href="shop.html">shop
+                        now</a>
+                </div>
+                <div class="flex gap-5 divide-x divide-gray-300 text-sm text-gray-600">
+                    <a class="pr-4 hover:text-[#FF014F]" href="#">Help Center</a>
+                    <a class="pr-4 hover:text-[#FF014F]" href="#">Order Tracking</a>
+                    <a class="flex items-center gap-2 pr-4" href="#">English <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="#">$ USD <i class="fa-solid fa-angle-down"></i></a>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center py-3 md:py-5">
+                <div class="lg:hidden text-2xl">
+                    <i class="fa-solid fa-bars text-[#FF014F]"></i>
+                </div>
+
+                <div class="img flex items-center">
+                    <img src="./Image/logo-1753509866.svg" alt="Autogear Logo" class="hidden lg:block w-[56%]">
+                </div>
+
+                <div
+                    class="mid hidden lg:flex relative items-center border-2 border-gray-300 gap-5 px-5 py-2 rounded-md w-[50%]">
+                    <div>
+                        <select name="" id="" class="appearance-auto focus:outline-none text-sm text-gray-800 pr-10">
+                            <option value="">All Categories</option>
+                            <option value="">Shop</option>
+                        </select>
+                    </div>
+                    <input type="search" name="" id="" placeholder="Search product here...."
+                        class="border-l w-full pl-5 focus:outline-none">
+                    <div
+                        class="border absolute top-0 right-0 size-11 rounded-r-md translate-x-2 -translate-y-0.5 flex justify-center items-center bg-[#ff014f] text-white overflow-hidden cursor-pointer">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <div class="icon flex items-center text-2xl gap-5">
+                    <button id="mode-btn" class=" text-xl cursor-pointer"><i
+                            class="fa-solid fa-toggle-off"></i></button>
+
+                    <i class="fa-regular fa-user hidden sm:block"></i>
+
+                    <div class="relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span
+                            class="absolute -top-2 -right-2 text-xs bg-[#FF014F] text-white rounded-full size-4 flex items-center justify-center font-bold">0</span>
+                    </div>
+
+                    <div class="relative">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span
+                            class="absolute -top-2 -right-2 text-xs bg-[#FF014F] text-white rounded-full size-4 flex items-center justify-center font-bold">1</span>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="hidden lg:flex justify-between shadow-md items-center">
+                <div
+                    class="left flex items-center gap-3 border py-3 px-4 font-medium bg-[#EF233C] text-white rounded-t-md">
+                    <p><i class="fa-solid fa-bars"></i></p>
+                    <p>Shop By Categories</p>
+                </div>
+
+                <div class="menu space-x-4 pr-40 font-medium leading-[22px]">
+                    <a class="text-[#ff104f] " href="index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="shop.html">Shop<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Categories <span
+                            class="bg-[#199588] text-white px-1 py-0.5 rounded-sm text-xs">SALE</span><i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">product <span
+                            class="bg-[#E62A65] text-white px-1 py-0.5 rounded-sm text-xs">HOT</span><i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Top Deals<i class="fa-solid fa-angle-down"></i></a>
+                    <a class="hover:text-[#ff104f]" href="#">Elements<i class="fa-solid fa-angle-down"></i></a>
+                </div>
+
+                <div class="right">
+                    <p><i class="fa-solid fa-fire text-red-600"></i> Hot Deals</p>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+
+    <main>
+        <!-- shop banner  -->
+        <section class="bg-[#F7F7F7] py-8">
+            <div class="container mx-auto px-4 text-center">
+
+                <p class="text-sm ">Home / Wheels / Alloy Wheels / Pennzoil Platinum High Mileage Synthetic Motor Oil
+                </p>
+            </div>
+        </section>
+
+
+        <!-- main product section  -->
+        <section class="container mx-auto px-4 pt-8">
+            <div class="flex  justify-between items-start">
+                <div class="left flex gap-5 w-[50%]">
+                    <div class="side-left flex flex-col gap-4">
+                        <div class="border-2 p-2 border-gray-200 rounded-md hover:border-[#ff104f]"><img src="https://prestashop.codezeel.com/PRS21/PRS210514/default/85-small_default/pennzoil-platinum-high-mileage-synthetic-motor-oil.jpg" alt=""></div>
+                        <div class="border-2 p-2 border-gray-200 rounded-md hover:border-[#ff104f]"><img src="https://prestashop.codezeel.com/PRS21/PRS210514/default/88-small_default/pennzoil-platinum-high-mileage-synthetic-motor-oil.jpg" alt=""></div>
+                        <div class="border-2 p-2 border-gray-200 rounded-md hover:border-[#ff104f]"><img src="https://prestashop.codezeel.com/PRS21/PRS210514/default/89-small_default/pennzoil-platinum-high-mileage-synthetic-motor-oil.jpg" alt=""></div>
+                        <div class="border-2 p-2 border-gray-200 rounded-md hover:border-[#ff104f]"><img src="https://prestashop.codezeel.com/PRS21/PRS210514/default/90-small_default/pennzoil-platinum-high-mileage-synthetic-motor-oil.jpg" alt=""></div>
+                    </div>
+                    <div class="side-right border-2 p-2 border-gray-200 rounded-md ">
+                        <img class="h-180" src="https://prestashop.codezeel.com/PRS21/PRS210514/default/85-large_default/pennzoil-platinum-high-mileage-synthetic-motor-oil.jpg" alt="">
+                    </div>
+                </div>
+                <div class="right w-[45%]">
+                    <div class="top-text space-y-4 border-b border-b-gray-200 pb-4">
+                        <div>
+                            <p class="text-sm text-[#ff104f]">Smartshop</p>
+                            <h3 class="text-xl font-semibold ">Pennzoil Platinum High Mileage Synthetic Motor Oil</h3>
+                        </div>
+                        <div class="flex  items-center  gap-4">
+                            <p class="text-[#ff104f] text-xl font-medium"><span
+                                    class="text-gray-600 line-through font-normal">$50.00</span> $45.50</p>
+                            <div class="flex gap-1">
+                                <img src="./Image/5rating.png" alt="">
+                                <p class="text-[#ff104f] text-sm">(4 Reviews)</p>
+                            </div>
+                        </div>
+                        <div class="text-gray-600 text-sm">
+                            <li>This Exquisite Mix Is Crafted To Satisfy Your Taste</li>
+                            <li>Transfers engine power to drive the wheels</li>
+                            <li>Struts support suspension and vehicle stability</li>
+                        </div>
+                    </div>
+
+                    <!-- color  -->
+                    <div class="color space-y-2 pt-5">
+                        <p class="text-sm font-medium">Color: <span class="font-normal">White</span></p>
+                        <div class="flex gap-3">
+                            <div class="border-2 size-10 border-gray-200 rounded-md hover:border-[#ff104f]"></div>
+                            <div
+                                class="border-2 size-10 border-gray-200 rounded-md flex justify-center items-center hover:border-[#ff104f]">
+                                <div class="bg-[#C19A6B] size-8"></div>
+                            </div>
+                            <div
+                                class="border-2 size-10 border-gray-200 rounded-md flex justify-center items-center hover:border-[#ff104f]">
+                                <div class="bg-yellow-500 size-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- timeing  -->
+                    <div class="pt-8">
+                        <p class="font-medium">Hurry up! Sale end in :</p>
+
+                        <div class="flex gap-4">
+                            <div
+                                class="bg-[#FEF2F2] size-12 rounded-md p-2 text-[#ff104f] flex  justify-center items-center">
+                                <p class="font-bold leading-4 text-center">806 <br> <span
+                                        class="text-sm font-normal">DAYS</span></p>
+                            </div>
+                            <div
+                                class="bg-[#FEF2F2] size-12 rounded-md p-1 text-[#ff104f] flex  justify-center items-center">
+                                <p class="font-bold leading-4 text-center">16 <br> <span
+                                        class="text-sm font-normal">HRS</span></p>
+                            </div>
+                            <div
+                                class="bg-[#FEF2F2] size-12 rounded-md p-1 text-[#ff104f] flex  justify-center items-center">
+                                <p class="font-bold leading-4 text-center">44 <br> <span
+                                        class="text-sm font-normal">MIN</span></p>
+                            </div>
+                            <div
+                                class="bg-[#FEF2F2] size-12 rounded-md p-1 text-[#ff104f] flex  justify-center items-center">
+                                <p class="font-bold leading-4 text-center">46 <br> <span
+                                        class="text-sm font-normal">SEC</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- btn top sec  -->
+                    <div class="flex  items-center  gap-4 pt-8">
+                        <p class="text-[#ff104f] text-xl font-medium"><span
+                                class="text-gray-600 line-through">$50.00</span> $45.50</p>
+                        <div class="flex gap-1">
+                            <div class="bg-[#FBE9E7] text-[#ff104f] px-2 rounded-md">Save 9%</div>
+                            <p class="text-gray-600 text-sm">- Est. Delivery Time 2-3 Days
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- btn  -->
+                    <div
+                        class="btn flex  items-center gap-3   pb-2 pt-8">
+                        <div class="flex items-center gap-8 border border-gray-200 rounded-md p-2">
+                            <button class="text-gray-600 bg-[#f2f2f2] rounded-full px-2  cursor-pointer"
+                                id="minas">-</button>
+                            <p id="chineseValue">0</p>
+                            <button class="text-gray-600 bg-[#f2f2f2] rounded-full px-2 cursor-pointer"
+                                id="plas">+</button>
+                        </div>
+                        <div class="">
+                            <button
+                                class="bg-[#EF233C] text-white py-3 px-30 rounded-md font-medium text-base leading-[120%]">
+                                Add to Cart</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button
+                            class="bg-black text-white py-3 px-52 rounded-md font-medium text-base leading-[120%]">BUY
+                            NOW</button>
+                    </div>
+
+                    <!-- Wishlist -->
+                    <div class="flex gap-8 py-4">
+                        <div class="flex gap-2 items-center hover:text-[#ff104f] ">
+                            <i class="fa-regular fa-heart"></i>
+                            <p>Add to Wishlist</p>
+                        </div>
+
+                        <div class="flex items-center gap-2 hover:text-[#ff104f]">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <p>Add to Compare</p>
+                        </div>
+                    </div>
+
+                    <!-- in stock  -->
+                    <div
+                        class="text-green-700 text-sm bg-[#DFF0D8] w-28 border border-gray-200 text-center rounded-md py-1">
+                        <i class="fa-solid fa-check"></i> in Stock
+                    </div>
+
+                    <div class="border-t border-gray-200 pt-5 mt-8">
+                        <!-- Social Share -->
+                        <div class="flex items-center gap-3 mb-6">
+                            <span class="text-sm font-medium">Share</span>
+                            <div class="flex gap-3">
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#ff104f] hover:text-white transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#ff104f] hover:text-white transition">
+                                    <i class="fab fa-x-twitter "></i>
+                                </a>
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#ff104f] hover:text-white transition">
+                                    <i class="fab fa-instagram "></i>
+                                </a>
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#ff104f] hover:text-white transition">
+                                    <i class="fab fa-tiktok "></i>
+                                </a>
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#ff104f] hover:text-white transition">
+                                    <i class="fab fa-whatsapp "></i>
+                                </a>
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#ff104f] hover:text-white transition">
+                                    <i class="fab fa-pinterest-p "></i>
+                                </a>
+                                <a href="#"
+                                    class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#ff104f] hover:text-white transition">
+                                    <i class="fas fa-link "></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Policies -->
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-truck text-xl text-gray-600"></i>
+                                <p><span class="font-semibold text-sm">Free Shipping & Returns :</span> Available on all orders
+                                    over $99.</p>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-clock text-xl text-gray-600"></i>
+                                <p><span class="font-semibold text-sm">Estimated Delivery :</span> Orders are typically
+                                    dispatched within 24 hours.</p>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-shield-alt text-xl text-gray-600"></i>
+                                <p><span class="font-semibold text-sm">Security Policy :</span> Ensuring top-level security for
+                                    your data and transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+
+
+
+    <footer class="bg-[#212529] text-gray-300 pt-10 px-6">
+        <div class="container px-4 mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+
+            <!-- Contact Us -->
+            <div class="space-y-3">
+                <h3 class="text-white font-semibold mb-4">Contact Us</h3>
+                <p class="text-sm">Autogear Demo<br>
+                    507-Union Trade Centre, USA 12345,<br>
+                    Beside the Sun point land.<br>
+                    United States
+                </p>
+                <p class="mt-3 text-sm">Call us: <span class="text-white">+00 123-456-789</span></p>
+                <p class="text-sm">Email us: <span class="text-white">admin@example.com</span></p>
+                <div class="flex gap-2 mt-4">
+                    <img src="./Image/app.png" alt="App Store">
+                    <img src="./Image/google.png" alt="Google Play">
+                </div>
+            </div>
+
+            <!-- Products -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Products</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="hover:text-white">Prices Drop</a></li>
+                    <li><a href="#" class="hover:text-white">New Products</a></li>
+                    <li><a href="#" class="hover:text-white">Best Sellers</a></li>
+                    <li><a href="#" class="hover:text-white">Sitemap</a></li>
+                    <li><a href="#" class="hover:text-white">Stores</a></li>
+                    <li><a href="#" class="hover:text-white">Gearbox</a></li>
+                </ul>
+            </div>
+
+            <!-- Our Company -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Our Company</h3>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="hover:text-white">Delivery</a></li>
+                    <li><a href="#" class="hover:text-white">Legal Notice</a></li>
+                    <li><a href="#" class="hover:text-white">Terms And Conditions</a></li>
+                    <li><a href="#" class="hover:text-white">Secure Payment</a></li>
+                    <li><a href="#" class="hover:text-white">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-white">About Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Your Account -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Your Account</h3>
+                <ul class="space-y-4 text-sm">
+                    <li><a href="#" class="hover:text-white">Order Tracking</a></li>
+                    <li><a href="#" class="hover:text-white">Sign In</a></li>
+                    <li><a href="#" class="hover:text-white">Create Account</a></li>
+                    <li><a href="#" class="hover:text-white font-semibold">Vouchers</a></li>
+                    <li><a href="#" class="hover:text-white">Credit Slip</a></li>
+                    <li><a href="#" class="hover:text-white">Wishlist</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h3 class="text-white font-semibold mb-4">Get Our Latest Update!</h3>
+                <p class="text-sm mb-4">Subscribe to our latest newsletter to get news about special discounts.</p>
+
+                <!-- Email input -->
+                <div class="flex bg-white rounded-md overflow-hidden">
+                    <input type="email" placeholder="Your email address"
+                        class="flex-1 px-3 py-2 text-gray-800 outline-none">
+                    <button class="bg-pink-500 px-4 text-white text-lg">&gt;</button>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="flex items-start mt-3 text-white">
+                    <input type="checkbox" id="agree" class="mt-1 mr-2">
+                    <label for="agree" class="text-sm">
+                        I agree to the terms and conditions and the privacy policy
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <section class="border-t border-t-gray-700">
+            <div class="bottomFooter container mx-auto px-4 py-5 flex justify-between items-center">
+                <div class="social flex items-center gap-1">
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <div
+                        class="border text-xl size-10 flex
+                     justify-center items-center bg-white text-black rounded-full text-center hover:bg-[#ff104f] hover:text-white duration-500 transition-all">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Image/payment-all-6.png" alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
